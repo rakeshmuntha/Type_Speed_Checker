@@ -15,7 +15,7 @@
 }
 
 .body {
-    background-color: #323437;
+    background-color: #16171c;
 }
 
 /* Main contaier */
@@ -25,7 +25,7 @@
     padding: 30px;
     border: none;
     border-radius: 12px;
-    background-color: #323437;
+    background-color: rgba(0, 0, 0, 0.3);;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
@@ -59,7 +59,7 @@
 }
 
 #settings button:hover {
-    background-color: #dcaf0e;
+    background-color: rgb(233, 188, 26);
     color: beige;
     height: 1 rem;
 }
