@@ -1,0 +1,153 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    font-size: 3rem;
+    color: #cfa510;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.body {
+    background-color: #323437;
+}
+
+/* Main contaier */
+#app {
+    max-width: 900px;
+    margin: 70px auto 50px auto;
+    padding: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #323437;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Settings */
+#settings {
+    margin-bottom: 30px;
+}
+
+#settings input {
+    width: 120px;
+    padding: 10px;
+    margin-right: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3a3a3a;
+    color: #ddd;
+}
+
+#settings button {
+    padding: 20px 20px;
+    background-color: #cfa510;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 25px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#settings button:hover {
+    background-color: #dcaf0e;
+    color: beige;
+    height: 1 rem;
+}
+
+/* Text area */
+#textArea {
+    margin: 30px 0;
+}
+
+#paragraph {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #e5e5e5;
+    margin-bottom: 12px;
+}
+
+.input-area #inputBox {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background-color: #333;
+    color: #ddd;
+}
+
+/* Error highlighting */
+.input-area #inputBox.red {
+    color: #ff4c4c;
+}
+
+.settime {
+    color: #e0e0e0;
+}
+
+/* Stats section */
+#stats {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#stats p {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #e0e0e0;
+}
+
+#timer,
+#mistakes,
+#wpm,
+#highest-wpm {
+    font-weight: bold;
+    font-size: 20px;
+    color: #e2b714;
+}
+
+/* Correct and incorrect words */
+.correct {
+    color: rgb(50, 186, 50);
+}
+
+.incorrect {
+    color: #ff4c4c;
+    text-decoration: underline;
+}
+
+.letter {
+    font-size: 1.3em;
+}
+
+.correct-letter {
+    color: rgb(50, 186, 50);
+}
+
+.incorrect-letter {
+    color: #ff4c4c;
+}
+
+.word.incorrect {
+    color: #ff4c4c;
+}
+
+#startGame {
+    margin-left: 1rem;
+}
+
+#tryAgain {
+    margin-left: 1rem;
+}
