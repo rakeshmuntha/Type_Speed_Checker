@@ -6,7 +6,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-
 .title {
     font-size: 3rem;
     color: #cfa510;
@@ -16,7 +15,7 @@
 }
 
 .body {
-    background-color: #16171c;
+    background-color: #14151a;
 }
 
 /* Main contaier */
